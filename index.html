@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一封温柔的告白信</title>
+  <meta name="description" content="一个浪漫、温柔、适合分享的告白网页。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到顶部">
+      <span class="brand-mark">Love</span>
+      <span>一封告白信</span>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#reasons">心动理由</a>
+      <a href="#moments">慢慢靠近</a>
+      <a href="#letter">打开信</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <img src="assets/romantic-hero.png" alt="玫瑰、星光、信笺和爱心组成的浪漫插画" class="hero-image">
+      <div class="hero-copy">
+        <p class="eyebrow">A soft little confession</p>
+        <h1>想把今天的温柔都送给你</h1>
+        <p class="hero-text">不是盛大的烟火，也不是喧闹的人群，只是想在一个安静的时刻，把藏在心里的喜欢认真说给你听。</p>
+        <div class="hero-actions">
+          <a class="primary-link" href="#letter">打开这封信</a>
+          <a class="secondary-link" href="#reasons">看看为什么</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro">
+      <p>有些喜欢不用很用力地证明，它会藏在每一次想起你时上扬的嘴角里，也会落在每一句“你今天过得好吗”里面。</p>
+    </section>
+
+    <section class="section" id="reasons">
+      <div class="section-heading">
+        <p class="eyebrow">Reasons</p>
+        <h2>让我心动的瞬间</h2>
+      </div>
+      <div class="reason-grid">
+        <article class="reason-card">
+          <span>01</span>
+          <h3>你的出现很温柔</h3>
+          <p>像夜里忽然亮起的一盏小灯，让普通日子也多了一点被期待的光。</p>
+        </article>
+        <article class="reason-card">
+          <span>02</span>
+          <h3>你的笑很有力量</h3>
+          <p>它不吵闹，却能把疲惫慢慢推远，让心里重新变得柔软。</p>
+        </article>
+        <article class="reason-card">
+          <span>03</span>
+          <h3>想和你慢慢来</h3>
+          <p>不急着定义所有答案，只想把每一个今天都过得比昨天更靠近一点。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section moments" id="moments">
+      <div class="section-heading">
+        <p class="eyebrow">Little Timeline</p>
+        <h2>把喜欢写进日常</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <time>第一眼</time>
+          <p>世界好像安静了一点，只剩下想多看你一眼的念头。</p>
+        </article>
+        <article>
+          <time>某个傍晚</time>
+          <p>风很轻，话题很普通，可心里偷偷把那一刻收藏了很久。</p>
+        </article>
+        <article>
+          <time>从今天起</time>
+          <p>想认真陪你看更多日落，也想把平凡日子过成值得纪念的样子。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-copy">
+        <p class="eyebrow">For You</p>
+        <h2>这里有一封信</h2>
+        <p>点击信封，收下这句很认真、很轻、也很久的喜欢。</p>
+      </div>
+      <button class="envelope" type="button" data-open-letter aria-expanded="false">
+        <span class="envelope-flap"></span>
+        <span class="envelope-paper">
+          <strong>喜欢你</strong>
+          <small>比昨天更多一点</small>
+        </span>
+        <span class="envelope-body"></span>
+      </button>
+      <div class="letter-message" data-letter-message aria-live="polite">
+        如果你也愿意，那就让我们从一个温柔的今天开始，慢慢走向很多个值得记住的明天。
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with a quiet heart and a little starlight.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
